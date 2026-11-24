@@ -303,6 +303,7 @@ ideas = {
 				political_power_factor = -0.03
 				corruption_cost_factor = 0.1
 				production_factory_max_efficiency_factor = -0.30
+				trade_opinion_factor = -100.0
 			}
 		}
 		CUB_low_cost_of_living = {
@@ -404,6 +405,22 @@ ideas = {
 				econ_cycle_upg_cost_multiplier_modifier = 0.21
 				productivity_growth_modifier = -0.17
 				bureaucracy_cost_multiplier_modifier = 0.25
+			}
+		}
+		#New command economy // Smuns
+		CUB_new_command_economy = {
+
+			picture = CUB_command_eco
+
+			modifier = {
+				production_speed_buildings_factor = -0.02
+				industrial_capacity_factory = -0.7
+				consumer_goods_factor = -0.05
+				tax_rate_change_multiplier_modifier = 0.08
+				tax_gain_multiplier_modifier = -0.12
+				econ_cycle_upg_cost_multiplier_modifier = 0.12
+				productivity_growth_modifier = -0.10
+				bureaucracy_cost_multiplier_modifier = 0.5
 			}
 		}
 		CUB_5_years_plans_idea = {

@@ -306,6 +306,8 @@
  CUB_new_dem_reforms: "New Program of Democratic Reforms"
  CUB_old_command_economy: "Old Cuban Command Economy"
  CUB_old_command_economy_desc: "The old system of a planned economy only makes things worse for us. We need to change our economic system. You can remove this national spirit in the Economic Reform thread"
+ CUB_new_command_economy: "Reformed Cuban Command Economy"
+ CUB_new_command_economy_desc: "The reformed command system is still taking its first steps, and growing pains are inevitable. Given time, our institutions will adapt and this model will prove far more efficient than the old planned economy."
  CUB_agriculture_revive: "Revive Our Agriculture"
  CUB_agriculture_revive_desc: "Only by reviving our agriculture as soon as possible can we best support our national development."
  CUB_revive_agri: "Revived Agriculture"
