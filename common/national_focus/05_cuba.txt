@@ -3223,6 +3223,7 @@ focus_tree = {
     		one_random_agriculture_district = yes
 			set_temp_variable = { temp_opinion = 10 }
 			change_farmers_opinion = yes
+			add_idea = CUB_new_command_economy_consumer_goods
 		}
 
 		ai_will_do = {
