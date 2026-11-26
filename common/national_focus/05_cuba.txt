@@ -3168,6 +3168,10 @@ focus_tree = {
 			focus = CUB_western_invest
 		}
 
+		available = {
+			has_idea = CUB_new_command_economy
+		}
+
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
 		completion_reward = {
@@ -4374,6 +4378,9 @@ focus_tree = {
 		cost = 7
 
 		prerequisite = { focus = CUB_economic }
+		available = {
+			has_idea = CUB_new_command_economy
+		}
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
@@ -5230,7 +5237,6 @@ focus_tree = {
 		cost = 7
 
 		prerequisite = { focus = CUB_wto }
-		mutually_exclusive = { focus = CUB_ties_with_latin_america }
 
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_INDUSTRY }
 
@@ -5351,7 +5357,6 @@ focus_tree = {
 		cost = 5
 
 		prerequisite = { focus = CUB_wto }
-		mutually_exclusive = { focus = CUB_coop_with_eacu }
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
@@ -5778,10 +5783,10 @@ focus_tree = {
 
 		cost = 10
 
-		prerequisite = { focus = CUB_PDCA }
 		prerequisite = {
 			focus = CUB_operation_miracle
 			focus = CUB_enter_brics
+			focus = CUB_PDCA
 		}
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
@@ -5816,6 +5821,9 @@ focus_tree = {
 		cost = 3
 
 		prerequisite = { focus = CUB_economic }
+		available = {
+			has_idea = CUB_new_command_economy
+		}
 
 		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_STABILITY FOCUS_FILTER_POLITICAL }
 
