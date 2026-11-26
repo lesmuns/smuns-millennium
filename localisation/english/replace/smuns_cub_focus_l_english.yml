@@ -1,4 +1,6 @@
 l_english:
   CUB_new_command_economy: "Reformed Cuban Command Economy"
   CUB_new_command_economy_desc: "The reformed command system is still taking its first steps, and growing pains are inevitable. Given time, our institutions will adapt and this model will prove far more efficient than the old planned economy."
+  CUB_old_command_economy: "Old Cuban Command Economy"
+  CUB_old_command_economy_desc: "Our planned economy was copied from the Soviet model and has been inefficient from the start. Now that its patron is gone, clinging to it only deepens our decline. We must build a system of our own."
  
