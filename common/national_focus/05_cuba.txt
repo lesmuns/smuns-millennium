@@ -2812,10 +2812,6 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CUB_new_model_economy"
-			swap_ideas = {
-				remove_idea = CUB_old_command_economy
-				add_idea = CUB_new_command_economy
-			}
 		}
 
 		ai_will_do = {
@@ -3166,10 +3162,6 @@ focus_tree = {
 		prerequisite = {
 			focus = CUB_eastern_invest
 			focus = CUB_western_invest
-		}
-
-		available = {
-			has_idea = CUB_new_command_economy
 		}
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
@@ -4366,10 +4358,6 @@ focus_tree = {
 		cost = 7
 
 		prerequisite = { focus = CUB_economic }
-		available = {
-			has_idea = CUB_new_command_economy
-		}
-
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
 		completion_reward = {
@@ -5809,9 +5797,6 @@ focus_tree = {
 		cost = 3
 
 		prerequisite = { focus = CUB_economic }
-		available = {
-			has_idea = CUB_new_command_economy
-		}
 
 		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_STABILITY FOCUS_FILTER_POLITICAL }
 

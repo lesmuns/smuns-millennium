@@ -5,3 +5,5 @@
   CUB_old_command_economy_desc: "Our planned economy was copied from the Soviet model and has been inefficient from the start. Now that its patron is gone, clinging to it only deepens our decline. We must build a system of our own."
   CUB_new_model_economy: "New Economic Model"
   CUB_new_model_economy_desc: "The old planned economy was a copy of the Soviet model, and it failed us the moment our patron fell. We will keep the state at the helm, but rebuild the system around Cuba's own needs, with realistic targets and room for local initiative."
+  CUB_command_economy_dm: "Cuban Command Economy"
+  CUB_command_economy_dm_desc: "Cuba's old planned economy was copied from the Soviet model, and without its patron it is no longer a viable option.\n\nThe state will keep the commanding heights, but the system must be rebuilt around Cuba's own needs. Reform demands concessions, yet each step away from the old orthodoxy brings us closer to something truly Cuban."

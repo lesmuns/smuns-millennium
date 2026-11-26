@@ -1,0 +1,16 @@
+CUB_command_economy_dm = {
+    icon = GFX_idea_CUB_command_eco
+
+    enable = { always = yes }
+    remove_trigger = { always = no }
+
+    production_speed_buildings_factor = CUB_eco_building_speed
+    industrial_capacity_factory = CUB_eco_factory_output
+    consumer_goods_factor = CUB_eco_consumer_goods
+    tax_rate_change_multiplier_modifier = CUB_eco_tax_rate_change
+    tax_gain_multiplier_modifier = CUB_eco_tax_gain
+    econ_cycle_upg_cost_multiplier_modifier = CUB_eco_cycle_upg_cost
+    productivity_growth_modifier = CUB_eco_productivity_growth
+    bureaucracy_cost_multiplier_modifier = CUB_eco_bureaucracy_cost
+    political_power_factor = CUB_eco_political_power
+}
