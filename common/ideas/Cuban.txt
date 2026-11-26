@@ -425,14 +425,6 @@ ideas = {
 				political_power_factor = -0.1
 			}
 		}
-		CUB_new_command_economy_consumer_goods = {
-			name = CUB_new_command_economy
-			picture = CUB_command_eco
-
-			modifier = {
-				consumer_goods_factor = -0.05
-			}
-		}
 		CUB_5_years_plans_idea = {
 
 			picture = blr_communist_economy_org
