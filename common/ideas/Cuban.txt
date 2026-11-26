@@ -546,7 +546,7 @@ ideas = {
 			modifier = {
 				bureaucracy_cost_multiplier_modifier = 0.1
 				agriculture_workers_modifier = 0.15
-				agricolture_productivity_modifier = -0.1
+				agriculture_productivity_modifier = -0.1
 				agriculture_tax_modifier = -0.2
 			}
 		}
@@ -556,7 +556,7 @@ ideas = {
 			modifier = {
 				bureaucracy_cost_multiplier_modifier = 0.02
 				agriculture_workers_modifier = 0.02
-				agricolture_productivity_modifier = 0.02
+				agricolture_productivity_modifier = 0.05
 				agriculture_tax_modifier = 0.02
 			}
 		}
@@ -567,8 +567,8 @@ ideas = {
 			modifier = {
 				bureaucracy_cost_multiplier_modifier = 0.03
 				agriculture_workers_modifier = 0.05
-				agricolture_productivity_modifier = 0.05
-				agriculture_tax_modifier = 0.05
+				agricolture_productivity_modifier = 0.1
+				agriculture_tax_modifier = 0.1
 			}
 		}
 		#cupet

@@ -3219,23 +3219,10 @@ focus_tree = {
 			}
 			set_temp_variable = { treasury_change = -4.5 }
 			modify_treasury_effect = yes
-			set_temp_variable = { temp_opinion = 5 }
+			set_temp_variable = { skip_payment = 1 }
+    		one_random_agriculture_district = yes
+			set_temp_variable = { temp_opinion = 10 }
 			change_farmers_opinion = yes
-			newline = yes
-			if = { limit = { has_idea = farmers }
-				custom_effect_tooltip = if_farmers_opinion_at_least_enthusiastic_tt
-				effect_tooltip = {
-					set_temp_variable = { skip_payment = 1 }
-					one_random_agriculture_district = yes
-				}
-				hidden_effect = {
-					if = {
-						limit = { check_variable = { farmers_opinion > 74.999 } }
-						set_temp_variable = { skip_payment = 1 }
-						one_random_agriculture_district = yes
-					}
-				}
-			}
 		}
 
 		ai_will_do = {
@@ -3604,6 +3591,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CUB_sugar"
+			one_random_industrial_complex = yes
 			one_random_industrial_complex = yes
 		}
 
