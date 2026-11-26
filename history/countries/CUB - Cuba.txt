@@ -460,7 +460,6 @@ capital = 854
 		CUB_tourism
 		CUB_low_cost_of_living
 		CUB_land_of_freedom_idea
-		CUB_old_command_economy
 		CUB_cpc_idea1
 		CUB_destoryed_agriculture_idea
 		CUB_idea_migration_crisis
