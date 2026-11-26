@@ -2812,6 +2812,16 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CUB_new_model_economy"
+			add_to_variable = { CUB_eco_building_speed = 0.15 }
+			add_to_variable = { CUB_eco_factory_output = 0.4 }
+			add_to_variable = { CUB_eco_consumer_goods = 0.15 }
+			add_to_variable = { CUB_eco_tax_rate_change = -0.25 }
+			add_to_variable = { CUB_eco_tax_gain = 0.15 }
+			add_to_variable = { CUB_eco_cycle_upg_cost = -0.6 }
+			add_to_variable = { CUB_eco_productivity_growth = 0.20 }
+			add_to_variable = { CUB_eco_bureaucracy_cost = 0.5 }
+			add_to_variable = { CUB_eco_political_power =  -0.3 }
+			force_update_dynamic_modifier = yes
 		}
 
 		ai_will_do = {
