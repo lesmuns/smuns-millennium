@@ -91,8 +91,8 @@ setup_global_arrays = {
 	# religious conservative 5, liberal 6, autocrat 7, oligarch 8, fascist 9,
 	# monarchist 10, emerging fundamentalist 11, salafist fundamentalist 12.
 	resize_array = { array = global.ip_party_policy_group value = 0 size = 24 }
-	resize_array = { array = global.ip_policy_idea_groups value = 0 size = 38 }
-	resize_array = { array = global.ip_policy_idea_tokens value = 0 size = 38 }
+	resize_array = { array = global.ip_policy_idea_groups value = 0 size = 39 }
+	resize_array = { array = global.ip_policy_idea_tokens value = 0 size = 39 }
 	set_variable = { global.ip_party_policy_group^0 = 7 }
 	set_variable = { global.ip_party_policy_group^1 = 4 }
 	set_variable = { global.ip_party_policy_group^2 = 6 }
