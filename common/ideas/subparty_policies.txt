@@ -37,6 +37,25 @@ ideas = {
 				consumer_goods_factor = 0.25
 			}
 		}
+		IP_besieged_state = {
+
+			allowed_civil_war = { always = yes }
+
+			cancel = {
+				NOT = { has_ip_communist_policy = yes }
+			}
+
+			modifier = {
+				resource_export_multiplier_modifier = -0.50
+				trade_opinion_factor = -0.5
+				opinion_gain_monthly_factor = -0.5
+				foreign_influence_modifier = -0.15
+				enemy_justify_war_goal_time = -0.5
+
+				army_core_defence_factor = 0.15
+				foreign_influence_defense_modifier = 0.5
+			}
+		}
 
 		#For socialists
 		IP_welfare_state = {
