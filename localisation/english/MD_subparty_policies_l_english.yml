@@ -21,7 +21,7 @@
  generic_initiate_energy_5_year_plan: "Initiate Energy Focused 5-Year-Plan"
  generic_initiate_energy_5_year_plan_desc: "We must expand our energy production capabilities in preparation for future industrial expansion."
  generic_admit_5_year_plan_failure: "Admit the Failure of the 5-Year-Plan"
- generic_admit_5_year_plan_failure_desc: "We have to admit that the plans we made for our grandiose 5-year-plan were a bit too overambitious to say the least. Admitting that is definitely a hard piece to swallow, and will only show our weakness to the world. It definitely won't be an agreeable solution for many of the party members."
+ generic_admit_5_year_plan_failure_desc: "Our 5-Year Plan was too ambitious to succeed. We can end it now, but must wait 60 days before starting another plan."
  generic_nationalise_biggest_influencer_industries: "Nationalise [?var:influence_array^0.GetFlag][?var:influence_array^0.GetAdjective] Investments"
  generic_nationalise_biggest_influencer_industries_desc: "[?var:influence_array^0.GetFlag][?var:influence_array^0.GetName] moves a large amount of money through our country. They are abusing our people for capitalistic gains and that needs to be stopped. We should nationalise some of the [?var:influence_array^0.GetAdjective] holdings in our country."
  generic_nationalise_second_biggest_influencer_industries: "Nationalise [?var:influence_array^1.GetFlag][?var:influence_array^1.GetAdjective] Investments"
@@ -30,7 +30,7 @@
  generic_form_paramilitary_units_desc: "Our youth are getting lazy and decadent. We need to form paramilitary organizations that will teach them useful life and military skills, and of course loyalty to the party."
 
  #Tooltips
- TT_ABANDON_5_YEAR_PLAN: "§H[Root.GetLeader]§! disappears mysteriously.\nLuckily there is someone from the §H[show_ruling_party]§! who is very eager to serve as the leader\n\n"
+ TT_ABANDON_5_YEAR_PLAN: "The current §H5-Year Plan§! ends. We can start another plan after §H60 days§!."
  TT_CURRENT_HAS_A_5_YEAR_PLAN: "A §H5-Year Plan§! is currently active\n"
  TT_CURRENT_HAS_A_5_YEAR_PLAN_NOT: "Does NOT have a §H5-Year Plan§! currently active\n"
  TT_HAS_20_INFLUENCE: "The target has at least 20% influence on us"
