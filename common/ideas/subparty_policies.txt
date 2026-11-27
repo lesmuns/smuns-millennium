@@ -3,8 +3,7 @@ ideas = {
 	hidden_ideas = {
 
 		#For communists
-		IP_spread_the_revolution = {
-
+		IP_universal_services = {
 			allowed_civil_war = { always = yes }
 
 			cancel = {
@@ -12,7 +11,16 @@ ideas = {
 			}
 
 			modifier = {
-				boost_ideology_mission_factor = 0.25
+				education_cost_multiplier_modifier = -0.20
+				health_cost_multiplier_modifier = -0.20
+				social_cost_multiplier_modifier = -0.20
+				bureaucracy_cost_multiplier_modifier = 0.25
+
+				expected_education_modifier = 1
+				expected_healthcare_modifier = 1
+				expected_welfare_modifier = 1
+
+				political_power_factor = -0.10
 			}
 		}
 		IP_planned_economy = {

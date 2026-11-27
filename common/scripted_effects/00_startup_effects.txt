@@ -120,7 +120,7 @@ setup_global_arrays = {
 
 	# Parallel arrays form the authoritative policy group -> idea token table.
 	set_variable = { global.ip_policy_idea_groups^0 = 1 }
-	set_variable = { global.ip_policy_idea_tokens^0 = token:IP_spread_the_revolution }
+	set_variable = { global.ip_policy_idea_tokens^0 = token:IP_universal_services }
 	set_variable = { global.ip_policy_idea_groups^1 = 1 }
 	set_variable = { global.ip_policy_idea_tokens^1 = token:IP_planned_economy }
 	set_variable = { global.ip_policy_idea_groups^2 = 2 }
