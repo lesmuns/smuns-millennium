@@ -122,7 +122,7 @@ setup_global_arrays = {
 	set_variable = { global.ip_policy_idea_groups^0 = 1 }
 	set_variable = { global.ip_policy_idea_tokens^0 = token:IP_spread_the_revolution }
 	set_variable = { global.ip_policy_idea_groups^1 = 1 }
-	set_variable = { global.ip_policy_idea_tokens^1 = token:IP_hard_labour }
+	set_variable = { global.ip_policy_idea_tokens^1 = token:IP_planned_economy }
 	set_variable = { global.ip_policy_idea_groups^2 = 2 }
 	set_variable = { global.ip_policy_idea_tokens^2 = token:IP_welfare_state }
 	set_variable = { global.ip_policy_idea_groups^3 = 2 }
