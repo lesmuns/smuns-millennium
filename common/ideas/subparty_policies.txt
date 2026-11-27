@@ -15,8 +15,7 @@ ideas = {
 				boost_ideology_mission_factor = 0.25
 			}
 		}
-		IP_hard_labour = {
-
+		IP_planned_economy = {
 			allowed_civil_war = { always = yes }
 
 			cancel = {
@@ -24,7 +23,9 @@ ideas = {
 			}
 
 			modifier = {
-				buildings_worker_requirement_modifier = 0.15
+				production_speed_buildings_factor = 0.50
+				production_factory_max_efficiency_factor = 0.20
+				consumer_goods_factor = 0.25
 			}
 		}
 
