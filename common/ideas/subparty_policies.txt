@@ -53,7 +53,7 @@ ideas = {
 				enemy_justify_war_goal_time = -0.5
 
 				army_core_defence_factor = 0.15
-				foreign_influence_defense_modifier = 0.5
+				foreign_influence_defense_modifier = 0.2
 			}
 		}
 
