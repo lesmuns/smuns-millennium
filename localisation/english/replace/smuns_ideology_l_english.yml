@@ -1,5 +1,7 @@
 ﻿l_english:
  IP_planned_economy: "Planned Economy"
+ IP_universal_services: "Universal Services"
+ IP_besieged_state: "Besieged State"
 
  IP_communist_powers_desc: "§YCommunists§!\n\n§YPowers available to:§!\n  [communist_state_L]\n  [Neutral_Communism_L]\n\n§YBonuses:§!\n  $BOOST_IDEOLOGY_MISSION_FACTOR$: §G+25%§!\n  Can implement their own §Y5-Year-Plans§! using §YDecisions§!\n  Can §YNationalise§! the assets of large foreign influencers using §YDecisions§!\n\n§YDrawback:§!\n  $buildings_worker_requirement_modifier$: §R+15%§!"
  IP_socialist_powers_desc: "§YSocialists§!\n\n§YPowers available to:§!\n  [socialism_L]\n  [anarchist_communism_L]\n  [Neutral_green_L]\n  [neutral_Social_L]\n\n§YBonuses:§!\n  $health_cost_multiplier_modifier$: §G-15.00%§!\n  $social_cost_multiplier_modifier$: §G-15.00%§!\n  $MODIFIER_POLITICAL_POWER_FACTOR$: §G+15%§! per level below §YLimited Interventionism§!\n\n§Y[Neutral_green_L] only:§!\n  $modifier_state_production_speed_renewable_energy_infra_factor$: §G+50.00%§!\n\n§YAll except [Neutral_green_L]:§!\n  $internal_investments_pp_cost_modifier$: §G-25.00%§!\n  $internal_investments_money_cost_modifier$: §G-25.00%§!\n\n§YDrawback:§!\n  $foreign_influence_defense_modifier$: §R-15%§!"
