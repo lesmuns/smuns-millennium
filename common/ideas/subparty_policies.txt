@@ -5,6 +5,9 @@ ideas = {
 		#For communists
 		IP_universal_services = {
 			allowed_civil_war = { always = yes }
+			on_add = {
+				SMUNS_enforce_universal_services_laws = yes
+			}
 
 			cancel = {
 				NOT = { has_ip_communist_policy = yes }

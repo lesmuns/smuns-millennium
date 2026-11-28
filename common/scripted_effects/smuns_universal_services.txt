@@ -1,0 +1,54 @@
+SMUNS_enforce_universal_services_laws = {
+	if = { limit = { has_idea = health_01 } increase_healthcare_budget_3 = yes }
+	else_if = { limit = { has_idea = health_02 } increase_healthcare_budget_2 = yes }
+	else_if = { limit = { has_idea = health_03 } increase_healthcare_budget = yes }
+
+	if = {
+		limit = { NOT = { has_idea = fully_nationalized_healthcare } }
+		if = {
+			limit = { has_idea = fully_privatized_healthcare }
+			swap_ideas = {
+				remove_idea = fully_privatized_healthcare
+				add_idea = fully_nationalized_healthcare
+			}
+		}
+		else_if = {
+			limit = { has_idea = partially_privatized_healthcare }
+			swap_ideas = {
+				remove_idea = partially_privatized_healthcare
+				add_idea = fully_nationalized_healthcare
+			}
+		}
+		else_if = {
+			limit = { has_idea = partially_nationalized_healthcare }
+			swap_ideas = {
+				remove_idea = partially_nationalized_healthcare
+				add_idea = fully_nationalized_healthcare
+			}
+		}
+		else = {
+			add_idea = fully_nationalized_healthcare
+		}
+	}
+
+	if = {
+		limit = { NOT = { has_idea = extensive_maintenance } }
+		if = {
+			limit = { has_idea = minimal_maintenance }
+			swap_ideas = {
+				remove_idea = minimal_maintenance
+				add_idea = extensive_maintenance
+			}
+		}
+		else_if = {
+			limit = { has_idea = standard_maintenance }
+			swap_ideas = {
+				remove_idea = standard_maintenance
+				add_idea = extensive_maintenance
+			}
+		}
+		else = {
+			add_idea = extensive_maintenance
+		}
+	}
+}

@@ -176,6 +176,7 @@ ideas = {
 			removal_cost = -1
 			level = 1
 			available = {
+				NOT = { has_idea = IP_universal_services }
 				NOT = {
 					OR = {
 						has_idea = health_04
@@ -221,6 +222,7 @@ ideas = {
 			removal_cost = -1
 			level = 2
 			available = {
+				NOT = { has_idea = IP_universal_services }
 				NOT = {
 					OR = {
 						has_idea = health_05
@@ -258,6 +260,7 @@ ideas = {
 			removal_cost = -1
 			level = 3
 			available = {
+				NOT = { has_idea = IP_universal_services }
 				NOT = {
 					OR = {
 						has_idea = health_01
@@ -555,6 +558,9 @@ ideas = {
 			cost = 75
 			removal_cost = -1
 			level = 1
+			available = {
+				NOT = { has_idea = IP_universal_services }
+			}
 			ai_will_do = {
 				base = 0
 				modifier = {
@@ -587,6 +593,9 @@ ideas = {
 			cost = 75
 			removal_cost = -1
 			level = 2
+			available = {
+				NOT = { has_idea = IP_universal_services }
+			}
 			ai_will_do = {
 				base = 3
 				modifier = {
